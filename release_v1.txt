@@ -1,0 +1,7 @@
+É o primeiro projeto, como podemos ver, não muito textos explicativos como o meu ultimo
+vou trazer atualizações nos próximos, focando em ser mais explicativo para uma melhor compreensão de todos!
+
+Sendo um pouco mais descritivo sobre esse projeto, ele só foi desenvolvido até a parte da autenticidade e login.
+passou por diversas modificações até chegar aqui, eu tive que aprender a usar PostgresSQL e a biblioteca libpq, e olha q essa nem foi a minha primeira opção a primeira
+opção foi de usar textos ".txt", mas conforme o projeto avançava pude perceber que não é algo prático de se usar, então abandonei a ideia, por isso tive
+que pensar em outra estrategia, que foi PostgreSQL. Em questão de tempo irei informar arquivos explicando todo o processo que precisa ser feito no SQL.
