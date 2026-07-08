@@ -86,7 +86,7 @@ int main() {
     //  inicializando as ferramentas
     struct Ferramentas f = {
         .saldo = 0,
-        .juros_saldo = 0.01, // Juros sobre o saldo de 0,8% a.m.
+        .juros_saldo = 0.01, // Juros sobre o saldo de 1% a.m.
         .ID = -1
     };
 
