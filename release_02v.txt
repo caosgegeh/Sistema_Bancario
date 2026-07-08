@@ -1,0 +1,18 @@
+Essa nova versão (2ª) foi a primeira versão funcional, embora não concluida
+
+vou informar dos processos precisos no postgres
+
+Antes de executar o código, voce precisa conectar o seu código a sua conta geral de postgres.
+exemplo: "host=localhost dbname=postgres user=postgres password='123456'"
+
+Você também precisará executar no postgres o seguinte comando
+"CREATE TABLE sistema(id SERIAL PRIMARY KEY, usuario TEXT, idade INTEGER, senha TEXT, saldo DOUBLE PRECISION, data DATE);",
+
+Após isso vocẽ pode compilar o programa usando seu compilador, eu uso clang, então seria por
+exemplo: "clang <nome_do_programa> -o <nome_do_arquivo_executavel> -lpq"
+
+depois você executa o programa, se seu sistema operacional for Linux como o meu:
+"./<nome_do_arquivo_executavel>"
+
+Agora se for um Windows é só: "<nome_do_arquivo_executavel>"
+Enfim, tenha um bom dia!
