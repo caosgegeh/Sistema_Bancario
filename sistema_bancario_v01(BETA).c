@@ -91,7 +91,7 @@ int main() {
     };
 
     PGconn *conn = PQconnectdb(
-        "host=localhost dbname=meubanco user=caos password=123"
+        "host=localhost dbname=postgres user=postgres password='123456'"
     );
 
     if (PQstatus(conn) != CONNECTION_OK) {
