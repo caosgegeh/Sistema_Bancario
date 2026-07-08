@@ -226,7 +226,7 @@ int main() {
 
     //  conexão ao banco de dados
     PGconn *conn = PQconnectdb(
-        "host=localhost dbname=meubanco user=caos password=123"
+        "host=localhost dbname=postgres user=postgres password='123456'"
     );
 
     //  Se der erro na conexão o programa fechara imediatamente, informando erro
