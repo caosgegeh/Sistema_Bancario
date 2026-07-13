@@ -1,0 +1,16 @@
+recomendação: acompanhe as versões de release para não haver
+
+Vou instrui-los a executar a v_03 do nosso sistema bancario!
+
+Primeiro precisa usar uma extensão no PostgresSQL para o Hash de senhas. Faça isso dentro do seu PostgresSQL:
+CREATE EXTENSION IF NOT EXISTS pgcrypto;
+
+após isso pode compilar normalmente:
+<nome_do_compilador> sistema_bancario_v03.c -o sistema -lpq
+
+e executa-lo
+Linux: ./sistema
+Windows: sistema
+
+Se voce ainda utiliza a mesma tabela da versão anterior, recomendo que delete os usuarios, para que funcione sem conflitos!
+Um ótimo dia a todos!
