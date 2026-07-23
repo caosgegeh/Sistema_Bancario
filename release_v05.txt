@@ -1,0 +1,6 @@
+Para compilar o programa execute
+<nome do seu compilador> sistema_bancario_v05.c -o sistema -lpq
+
+para executa-lo em:
+Linux: ./sistema
+Windows: sistema
