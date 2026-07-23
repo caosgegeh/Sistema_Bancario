@@ -1,4 +1,14 @@
-Para compilar o programa execute
+Execute no seu banco de dados
+
+CREATE TABLE IF NOT EXISTS sistema (
+id SERIAL PRIMARY KEY,
+usuario TEXT,
+idade INTEGER,
+senha TEXT,
+saldo DOUBLE PRECISION
+);
+
+Para compilar o programa execute no terminal
 <nome do seu compilador> sistema_bancario_v05.c -o sistema -lpq
 
 para executa-lo em:
