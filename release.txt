@@ -1,0 +1,10 @@
+Enfim, tenho atualizações de como compilar o sistem com esses modulos.
+assumindo a visão de que todos os arquivos possuem o mesmo nome e o nosso compilador sera o clang vá até seu terminal e digite
+
+clang main_v06.c iniciar.c saldo.c seguranca_e_pix.c -o sistema -lpq
+
+para executar o arquivo é
+Linux: ./sistema
+Windows: sistema
+
+Tenha um excelente dia!
